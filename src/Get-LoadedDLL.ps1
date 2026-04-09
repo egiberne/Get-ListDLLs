@@ -13,9 +13,12 @@ System.Object
 https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls
 .NOTES
 Author: EMERICK GIBERNE
-version: 0.1.0
+version: 0.2.0
 
 #>
 
 
-Get-Process -Name (Read-Host -Prompt "Name Process") -Module | Select -Property Company, ModuleName, FileName, FileVersion
+Get-Process -Name `
+(Read-Host -Prompt "Name Process")` -Module 
+| Select-Object -Property Company, ModuleName, FileName, FileVersion  
+
