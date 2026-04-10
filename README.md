@@ -4,6 +4,10 @@
 
 The Get-LoadedDll is attempt to replicate in PowerShell the LisDlls utility from SysInternal. The tool reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. List also full version information for DLLs.
 
+## Requirement
+
+It is support for PowerShell and unsupport for Windows PowerShell.
+
 
 ## Parameters
 

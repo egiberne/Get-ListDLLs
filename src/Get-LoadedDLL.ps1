@@ -13,14 +13,15 @@ System.Object
 https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls
 .NOTES
 Author: EMERICK GIBERNE
-version: 0.3.2
+version: 0.3.3
 #>
 
+#Requires -Version 7.0
 
 Get-Process -Name `
 (Read-Host -Prompt "Name Process")` -Module 
 | Select-Object -Property Company, ModuleName, FileName, FileVersion 
-| ForEach-Object {[ordered] @{Company =$_.Company; Version =$_.FileVersion; Path=$_.FileName ; Hash=(Get-FileHash -LiteralPath $_.FileName -Algorithm MD5 ).Hash}}
+| ForEach-Object {[ordered] @{Company =$_.Company; Version =$_.FileVersion; Path=$_.FileName ; Signature=(Get-AuthenticodeSignature -LiteralPath $_.FileName  ).SignerCertificate}}
 | Format-table
 
 

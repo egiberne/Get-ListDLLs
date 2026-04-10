@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.3 - 2026-04-10
+### Added
+Provide the required version in the code as uncompatible with Windows PowerShell
+### Fixed
+Correct the script to retrieve the signature of the DLLs instead of the hash code
+
+
 ## 0.3.2 - 2026-04-10
 ### Fixed
 Correct the script to retrieve the path of the DLL
