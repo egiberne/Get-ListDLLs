@@ -1,13 +1,19 @@
 # Changelog
 
+## 0.3.0 - 2026-04-09
+### Added 
+Support the inline hash table to return a Object
+### Changed
+- Update the license file with the terms
+- Update the Roadmap
 
 ## 0.2.0 - 2026-04-09
 ### Added 
 Implement Backtick to make the script easy to read
 ### Changed
-Rename the script to follow PowerShell naming convention
-Update the roadmap with more details
-Include more sections in the roadmap
+- Rename the script to follow PowerShell naming convention
+- Update the roadmap with more details
+- Include more sections in the roadmap
 
 ## 0.1.0 - 2026-04-08
 ### Added 

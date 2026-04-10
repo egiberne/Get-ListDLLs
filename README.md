@@ -9,7 +9,7 @@ The Get-LoadedDll is attempt to replicate in PowerShell the LisDlls utility from
 
 Name | Type | Description
 -----|------|--------------------
-Name |String| Name of the process
+     |String| Name of the process
 
 ## Example
 
@@ -25,13 +25,14 @@ Name |String| Name of the process
 
 1. One-liner
     - [x] List all DLLs loaded into all processes. 
-    - [ ] List all DLLs into a specific process.
-    - [ ] List the processes that have a particular DLL loaded.
-    - [ ] Display full version information for DLLs.
-    - [ ] Display their digital signature.
-    - [ ] Scan processes for unsigned DLLs.
+    - [x] List all DLLs into a specific process.
+    - [x] Display full version information for DLLs.
+    - [x] Display the digital signature.
+    - [x] Return output in a hash table
 2. Simple Script
 3. Advanced Script 
+    - [ ] List the processes that have a particular DLL loaded.
+    - [ ] Scan processes for unsigned DLLs.
 4. Simple Function
 5. Advanced Function
 6. Script Module
