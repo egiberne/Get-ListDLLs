@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2 - 2026-04-10
+### Fixed
+Correct the script to retrieve the path of the DLL
+
 ## 0.3.1 - 2026-04-09
 ### Fixed
 Correct the hash table with the type `[ordered]` to keep the same order used in the code
