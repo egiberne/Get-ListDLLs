@@ -50,8 +50,8 @@ Get-ExecutionPolicy
 
 ## Reference
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
-![Static Badge](https://img.shields.io/badge/PowerShell-Documentation-blue)
-
+[![Static Badge](https://img.shields.io/badge/PowerShell-Documentation-blue)(https://learn.microsoft.com/en-us/powershell/?view=powershell)]
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell
 
 ## Status
 ![Static Badge](https://img.shields.io/badge/status-active-green)

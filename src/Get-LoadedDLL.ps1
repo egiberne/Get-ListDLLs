@@ -13,12 +13,12 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls
 
 .NOTES
 - Author  :EMERICK GIBERNE
-- Version : 1.2.0
+- Version : 1.3.0
 #>
 
 #Requires -version 7.0
 
-param([string] $Name)
+param([string] $Name=$(throw -Name "Process Name parameter is required."))
 $Modules = Get-Process -Name $Name -Module 
 $Dlls = @()
 $Dll = @{Name='';Path='';Version='';Signature=''}
