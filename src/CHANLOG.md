@@ -1,8 +1,12 @@
 # Changelog
 
+## 1.3.1 - 2026-04-12
+### Fixed
+- Correct the link in the README
+
 ## 1.3.0 - 2026-04-12
 ### Fixed
-- Correct the refence link to the PowerShell documentation
+- Correct the reference link to the PowerShell documentation
 ### Added 
 - Provide another link to Windows PowerShell documentation
 - Control if the parameter `name` is provided

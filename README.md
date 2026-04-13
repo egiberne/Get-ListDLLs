@@ -19,6 +19,13 @@ Check execution policy status
 Get-ExecutionPolicy
 ```
 
+```Output
+Unrestricted
+```
+```Output
+Bypass
+```
+
 ## Roadmap
 
 1. One-liner Script
@@ -49,9 +56,11 @@ Get-ExecutionPolicy
 
 
 ## Reference
-[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
-[![Static Badge](https://img.shields.io/badge/PowerShell-Documentation-blue)(https://learn.microsoft.com/en-us/powershell/?view=powershell)]
-https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell
+[![Common Changelog Static Badge](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+
+[![PowerShell Documentation Static Badge](https://img.shields.io/badge/PowerShell-Documentation-blue)](https://learn.microsoft.com/en-us/powershell/?view=powershell)
+
+[![Windows PowerShell Static Badge](https://img.shields.io/badge/WindowsPowerShell-Documentation-purple)](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell)
 
 ## Status
 ![Static Badge](https://img.shields.io/badge/status-active-green)
