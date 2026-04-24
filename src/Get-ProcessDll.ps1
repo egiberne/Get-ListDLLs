@@ -6,14 +6,18 @@ The Get-LoadedDll is a one-line command script that reports the Dynamic Link Lib
 It can also display full version information for DLLs.
 .PARAMETER Name
 .EXAMPLE
+Get-ProcessDll -Name ProcessName
 .INPUTS
+None.
 .OUTPUTS
+None.
 .LINK
 https://learn.microsoft.com/en-us/sysinternals/downloads/listdlls
+https://learn.microsoft.com/en-us/windows/win32/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
 
 .NOTES
 - Author  :EMERICK GIBERNE
-- Version : 1.3.1
+- Version : 1.3.3
 #>
 
 #Requires -version 7.0

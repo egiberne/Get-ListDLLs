@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.3 - 2026-04-24
+## Changed
+- Rename the project and script for discoverability as a future module
+- Complete the PowerShell script description
+
 ## 1.3.2 - 2026-04-15
 ### Added 
 Provided the file `.gitignore`

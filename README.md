@@ -1,14 +1,14 @@
-# Get-LoadedDLL
+# Get-ProcessDLL
 
 ## Description
 
-The Get-LoadedDll is attempt to replicate in PowerShell the LisDlls utility from SysInternal. The tool reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. List also full version information for DLLs.
+The Get-ProcessDll is attempt to replicate in PowerShell the LisDlls utility from SysInternal. The tool reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. List also full version information for DLLs.
 
 ## Requirement
 
 |Name|Description|Specification|
 -----------|------------|---------|
-|PowerShell | Supported |7.5.5 Qualified|
+|PowerShell | Supported | v7.5.5 Qualified|
 |Windows Powershell|Unsupported|Not Applicable|
 
 >[!IMPORTANT]
