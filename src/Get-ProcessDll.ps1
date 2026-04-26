@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-Get the list of the DLLs for a process
+Get the list of the DLLs for a process.
 .DESCRIPTION
-The Get-LoadedDll is a one-line command script that reports the Dynamic Link Libraries loaded in processes. Use it to list all DLLs loaded into a specific process. 
+The Get-ProcessDll is a PowerShell script that reports the Dynamic-Link Libraries loaded in a process. Use it to list all DLLs loaded into a specific process. 
 It can also display full version information for DLLs.
 .PARAMETER Name
 .EXAMPLE
